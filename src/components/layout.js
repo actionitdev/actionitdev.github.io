@@ -15,7 +15,7 @@ import "../lib/lightbox/css/lightbox.min.css";
 export default function Layout({ children }) {
   return (
     <div>
-      <Seo />
+      <Seo title="Action IT" />
       <Navbar bg="white" expand="lg" fixed="top">
         <Navbar.Brand href="/">
           <img
