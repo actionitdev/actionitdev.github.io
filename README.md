@@ -42,8 +42,10 @@ Action IT's main website is powered by [Gatsby](https://www.gatsbyjs.com/).
     gatsby build
     ```
 
-    Deploy the application to GitHub Pages. Find out more information about [How Gatsby Works with GitHub Pages](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/).
+    Deploy the application to GitHub Pages:
 
     ```shell
-    npm run build
+    npm run deploy
     ```
+
+    Find out more information about [How Gatsby Works with GitHub Pages](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/).
