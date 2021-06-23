@@ -16,7 +16,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Seo title="Action IT" />
-      <Navbar bg="white" expand="lg" fixed="top">
+      <Navbar bg="light" expand="lg" fixed="top">
         <Navbar.Brand href="/">
           <img
             src={logo}

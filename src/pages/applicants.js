@@ -1,7 +1,7 @@
 import React from "react";
 import { css } from "@emotion/react";
 import Layout from "../components/layout";
-import timelineImg from "../images/ink-timeline-2021s1.png";
+import timelineImg from "../images/ink-timeline-2021s2.png";
 import developerImg from "../images/contribution-developer.png";
 import designerImg from "../images/contribution-designer.png";
 import pmImg from "../images/contribution-pm.png";
@@ -44,7 +44,7 @@ export default function ApplicantPage() {
                       <h4 className="card-title">Engineer</h4>
                       <p className="card-description">
                         We are onboarding software engineers (developers) for
-                        S1, 2021. If you are interested, don't hesitate to lodge
+                        S2, 2021. If you are interested, don't hesitate to lodge
                         your application now!
                       </p>
                       <a href="#how-to-apply" className="btn-apply">
@@ -79,8 +79,8 @@ export default function ApplicantPage() {
                         The Project Manager track will be opening soon, please
                         submit an expression of interest for any future updates.
                       </p>
-                      <a href="mailto:ait-eoi@actionit.dev" className="btn-eoi">
-                        Expression of Interest
+                      <a href="#how-to-apply" className="btn-apply">
+                        Apply Now
                       </a>
                     </div>
                   </div>
@@ -278,17 +278,17 @@ export default function ApplicantPage() {
                     font-weight: bold;
                   `}
                 >
-                  Applications are now open for the S1 2021 cohort. Please
+                  Applications are now open for the S2 2021 cohort. Please
                   submit your application via{" "}
                   <a
-                    href="https://forms.gle/rZdKnaM9TXKZ99TQA"
+                    href="https://forms.gle/a7X3udQTXU6ZqAqH9"
                     target="_blank"
                     rel="noreferrer"
                     className="link"
                   >
                     Action IT Application Form
                   </a>{" "}
-                  before 17th Feb 2021 to join us!
+                  before 12th July 2021 to join us!
                 </p>
 
                 <div className="row justify-content-center wow bounceInUp">

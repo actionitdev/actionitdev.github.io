@@ -84,9 +84,9 @@ export default function Home() {
                     </a>
                     ) to support National RC societies across the world. If you
                     are a NGO and are interested,{" "}
-                    <a href="#for-ngos" className="find-out-more">
+                    <a href="/ngos" className="find-out-more">
                       find out more
-                    </a>
+                    </a>{" "}
                     here.
                   </p>
                 </div>
