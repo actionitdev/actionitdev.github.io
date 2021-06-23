@@ -6,6 +6,7 @@ import developerImg from "../images/contribution-developer.png";
 import designerImg from "../images/contribution-designer.png";
 import pmImg from "../images/contribution-pm.png";
 import burstImg from "../images/ink-burst.png";
+import pathwayImg from "../images/pathway.png";
 
 export default function ApplicantPage() {
   return (
@@ -202,7 +203,58 @@ export default function ApplicantPage() {
                   </div>
                 </div>
 
-                <p className="title">Who Should Apply</p>
+                <p
+                  className="title"
+                  css={css`
+                    margin-top: 40px;
+                  `}
+                >
+                  Action IT Pathway
+                </p>
+
+                <div className="row mb-4">
+                  <div
+                    className="col-lg-6"
+                    css={css`
+                      margin-bottom: 24px;
+                    `}
+                  >
+                    <p>
+                      Action IT is aiming to support the development of our
+                      student volunteers. After working at least one semester
+                      with Action IT, eligible candidates will be able to take
+                      Supporter or Consultant roles to facilitate future
+                      projects with their existing project experiences. More
+                      competent candidates might also get the chance to become a
+                      Delivery Lead for Action IT to lead one or more project
+                      teams.
+                    </p>
+                  </div>
+
+                  <div
+                    className="col-lg-6"
+                    css={css`
+                      text-align: center;
+                      padding: 0 32px;
+                    `}
+                  >
+                    <img
+                      src={pathwayImg}
+                      className="img-fluid"
+                      css={css`width: 80vh;"`}
+                      alt="AIT Structure"
+                    />
+                  </div>
+                </div>
+
+                <p
+                  className="title"
+                  css={css`
+                    margin-top: 40px;
+                  `}
+                >
+                  Who Should Apply
+                </p>
 
                 <p className="subtitle">Eligibility</p>
 

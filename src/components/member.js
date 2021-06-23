@@ -12,7 +12,7 @@ export default function Member(props) {
             <h4>{props.name}</h4>
             <span>{props.team}</span>
             <div className="social">
-              <a href={props.linkedin}>
+              <a href={props.linkedin} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon>
               </a>
             </div>
