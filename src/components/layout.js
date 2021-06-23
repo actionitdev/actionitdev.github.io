@@ -16,7 +16,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Seo title="Action IT" />
-      <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar bg="light" color="light" expand="lg" fixed="top">
         <Navbar.Brand href="/">
           <img
             src={logo}
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
             height="30"
             css={css`
               padding: 0;
-              margin: 8px 48px 8px 24px;
+              margin: 8px 0px 8px 12px;
             `}
             className="d-inline-block align-top"
           />
@@ -36,7 +36,7 @@ export default function Layout({ children }) {
           <Nav
             className="ml-auto"
             css={css`
-              margin-right: 48px;
+              margin-right: 24px;
             `}
           >
             <Nav.Link href="/">About Us</Nav.Link>
