@@ -5,6 +5,7 @@ import timelineImg from "../images/ink-timeline-2021s2.png";
 import developerImg from "../images/contribution-developer.png";
 import designerImg from "../images/contribution-designer.png";
 import pmImg from "../images/contribution-pm.png";
+import burstImg from "../images/ink-burst.png";
 
 export default function ApplicantPage() {
   return (
@@ -300,6 +301,36 @@ export default function ApplicantPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section id="how-we-work" className="section-bg">
+          <div className="container">
+            <header className="section-header">
+              <h3>How We Work</h3>
+              <p>
+                Action IT operates "Burst" mode working to ensure the successful
+                delivery of infrastructures and solutions. Applicants initially
+                join a 10-week Development Burst in either semester 1 or
+                semester 2 (teaching week 1 to 10) to intensively work on
+                existing, well-scoped projects for NGOs. Projects are signed-off
+                and handed over to NGOs at the end of each Development burst
+                with documentation.
+                <br />
+                <br />
+                Design and Scoping bursts amid Development bursts, where goals
+                are set and prioritized. Major deliverables, project schedules,
+                and milestones are defined and project plans are developed. More
+                experienced Action IT members will have the chance to contribute
+                to the Design and Scoping burst after accomplishing at least two
+                Development bursts. Ongoing maintenance and support will be
+                performed throughout the bursts.
+              </p>
+
+              <div className="ink-burst wow fadeInUp">
+                <img src={burstImg} className="img-fluid burst-img" alt="" />
+              </div>
+            </header>
           </div>
         </section>
       </main>

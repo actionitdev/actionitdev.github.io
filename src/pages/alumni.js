@@ -11,83 +11,84 @@ import yuanhongImg from "../images/s1_2021/yuanhong.jpg";
 import yuzeImg from "../images/s1_2021/yuze.jpg";
 import Member from "../components/member";
 
+const alumni = [
+  {
+    img: anneImg,
+    name: "Anne Corby",
+    team: "Translation Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/anne-corby-2567b179/",
+  },
+  {
+    img: nanImg,
+    name: "Nan Xiao",
+    team: "Staging Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/silvia-xiao-a630ba1a6/",
+  },
+  {
+    img: palaashImg,
+    name: "Palaash Srivastava",
+    team: "Translation Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/palaash-srivastava-moncompsci/",
+  },
+  {
+    img: prithviImg,
+    name: "Prithvi Raj",
+    team: "Optimization Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/prmunday/",
+  },
+  {
+    img: sayaliImg,
+    name: "Sayali Chavan",
+    team: "Data Retrieval Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/sayali-chavan-379b3840/",
+  },
+  {
+    img: subbuImg,
+    name: "Subramanian Kanagasundaram",
+    team: "Optimization Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/gsubbu16/",
+  },
+  {
+    img: suryaImg,
+    name: "Surya Surendran",
+    team: "Staging Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/surya-surendran-298934116/",
+  },
+  {
+    img: yuanhongImg,
+    name: "YuanHong Li",
+    team: "Optimization Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/yuanhong-li-230a1a148/",
+  },
+  {
+    img: yuzeImg,
+    name: "Yuze Ling",
+    team: "Staging Team - S1 2021",
+    linkedin: "https://www.linkedin.com/in/yuze-ling/",
+  },
+];
+
+const alumniList = alumni.map((item) => {
+  return (
+    <Member
+      img={item.img}
+      name={item.name}
+      team={item.team}
+      linkedin={item.linkedin}
+    ></Member>
+  );
+});
+
 export default function AlumniPage() {
   return (
     <Layout>
       <section id="team">
         <div className="container" data-aos="fade-up">
           <div className="section-header">
-            <h3>Team</h3>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
-            </p>
+            <h3>ACTION IT Alumni</h3>
           </div>
 
-          <div className="row">
-            <Member
-              img={anneImg}
-              name="Anne Corby"
-              team="Translation Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/anne-corby-2567b179/"
-            ></Member>
-
-            <Member
-              img={nanImg}
-              name="Nan Xiao"
-              team="Staging Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/silvia-xiao-a630ba1a6/"
-            ></Member>
-
-            <Member
-              img={palaashImg}
-              name="Palaash Srivastava"
-              team="Translation Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/palaash-srivastava-moncompsci/"
-            ></Member>
-
-            <Member
-              img={prithviImg}
-              name="Prithvi Raj"
-              team="Optimization Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/prmunday/"
-            ></Member>
-
-            <Member
-              img={sayaliImg}
-              name="Sayali Chavan"
-              team="Data Retrieval Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/sayali-chavan-379b3840/"
-            ></Member>
-
-            <Member
-              img={subbuImg}
-              name="Subramanian Kanagasundaram"
-              team="Optimization Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/gsubbu16/"
-            ></Member>
-
-            <Member
-              img={suryaImg}
-              name="Surya Surendran"
-              team="Staging Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/surya-surendran-298934116/"
-            ></Member>
-
-            <Member
-              img={yuanhongImg}
-              name="YuanHong Li"
-              team="Optimization Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/yuanhong-li-230a1a148/"
-            ></Member>
-
-            <Member
-              img={yuzeImg}
-              name="Yuze Ling"
-              team="Staging Team - S1 2021"
-              linkedin="https://www.linkedin.com/in/yuze-ling/"
-            ></Member>
-          </div>
+          <div className="row">{alumniList}</div>
         </div>
       </section>
     </Layout>

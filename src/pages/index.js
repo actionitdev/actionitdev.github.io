@@ -1,15 +1,123 @@
 import React from "react";
 import { css } from "@emotion/react";
 import Layout from "../components/layout";
+import TeamMember from "../components/team";
+import BoardMember from "../components/board";
+import DeliveryLead from "../components/deliveryLead";
 import aboutImg from "../images/about-img.svg";
-import burstImg from "../images/ink-burst.png";
 import structureImg from "../images/ink-structure.png";
 import tomImg from "../images/portraits/tom.jpg";
 import peterImg from "../images/portraits/peter.jpg";
-import danImg from "../images/portraits/dan.jpg";
 import delvinImg from "../images/portraits/delvin.jpg";
-import dinislamImg from "../images/portraits/dinislam.jpg";
 import graceImg from "../images/portraits/grace.jpg";
+import allieImg from "../images/portraits/allie.jpg";
+import dougImg from "../images/portraits/doug.jpg";
+import heatherImg from "../images/portraits/heather.jpg";
+import mattImg from "../images/portraits/matt.jpg";
+import nicoleImg from "../images/portraits/nicole.jpg";
+import patrickImg from "../images/portraits/patrick.jpg";
+
+const team = [
+  {
+    img: tomImg,
+    link: "https://scholar.google.com/citations?user=yLecSWgAAAAJ&hl=en",
+    name: "Tom Bartindale",
+    title: "Chief Executive Officer",
+    description:
+      "An academic researcher specializing in new media production technologies. Tom has extensive experience building and maintaining IT systems for the third sector. He is responsible for making major corporate decisions, building and maintaining client relationships, and managing the overall operation of Action IT.",
+  },
+  {
+    img: peterImg,
+    link: "https://au.linkedin.com/public-profile/in/xiuzhi-chen",
+    name: "Peter Chen",
+    title: "Chief Technology Officer",
+    description:
+      "Peter is a Research Software Engineer with rich experience working with NGOs. He makes executive decisions with regards to the technological interests of Action IT He is responsible for service delivery, managing the development and deployment of all services provided by Action IT to clients.",
+  },
+  {
+    img: graceImg,
+    link: "https://scholar.google.com.au/citations?user=J8X_9JAAAAAJ&hl=en",
+    name: "Grace Xie",
+    title: "Chief Information Officer",
+    description:
+      "With more than 15 years of experience in software engineering, Grace is responsible for Action IT's information and data governance. Grace supports the team in streamlining suitable technologies and related policies to optimize strategic benefits.",
+  },
+  {
+    img: delvinImg,
+    link: "https://scholar.google.com/citations?user=yLecSWgAAAAJ&hl=en",
+    name: "Delvin Varghese",
+    title: "Director of Partnerships",
+    description:
+      "Delvin is responsible for engaging with our external NGO partners, building meaningful relationships which lead to sustainable project deliveries. A key part of this role is supporting our volunteers in building their identity as volunteering professionals.",
+  },
+];
+
+const board = [
+  {
+    img: patrickImg,
+    link: "https://scholar.google.com/citations?user=YULFeN0AAAAJ&hl=en",
+    name: "Prof. Patrick Olivier",
+    description: "Chairman & Director of Action Lab, Monash University",
+  },
+  {
+    img: heatherImg,
+    link: "https://www.linkedin.com/in/heatherleson",
+    name: "Heather Leson",
+    description:
+      "Digital Innovation Lead, IFRC (International Federation of Red Cross and Red Crescent Societies)",
+  },
+  {
+    img: nicoleImg,
+    link: "https://www.linkedin.com/in/nicolefrankel",
+    name: "Nicole Frankel",
+    description:
+      "Student Engagement and Employability Manager, Monash University",
+  },
+  {
+    img: dougImg,
+    link: "https://www.linkedin.com/in/douglasschuler",
+    name: "Doug Schuler",
+    description:
+      "ACM SIGCAS (Special Interest Group on Computers and Society) Chair",
+  },
+  {
+    img: mattImg,
+    link: "https://www.northumbria.ac.uk/about-us/our-staff/b/matt-baillie-smith",
+    name: "Prof. Matt Baillie Smith",
+    description:
+      "Professor of International Development, Northumbria University",
+  },
+  {
+    img: allieImg,
+    link: "https://research.monash.edu/en/persons/allie-clemans",
+    name: "Prof. Allie Clemans",
+    description:
+      "Professor, Director of Learning and Teaching, Monash University",
+  },
+];
+
+const teamList = team.map((item) => {
+  return (
+    <TeamMember
+      img={item.img}
+      name={item.name}
+      title={item.title}
+      link={item.link}
+      description={item.description}
+    ></TeamMember>
+  );
+});
+
+const boardList = board.map((item) => {
+  return (
+    <BoardMember
+      img={item.img}
+      name={item.name}
+      link={item.link}
+      description={item.description}
+    ></BoardMember>
+  );
+});
 
 export default function Home() {
   return (
@@ -140,249 +248,61 @@ export default function Home() {
             </header>
 
             <div className="row row-eq-height justify-content-center">
-              <div className="col-lg-6 mb-4">
-                <div className="card wow bounceInUp">
-                  <img src={tomImg} className="img" alt="" />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      <a
-                        href="https://scholar.google.com/citations?user=yLecSWgAAAAJ&hl=en"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="readmore"
-                      >
-                        Tom Bartindale
-                      </a>
-                    </h5>
-
-                    <p
-                      className="card-text"
-                      css={css`
-                        font-weight: bold;
-                      `}
-                    >
-                      Chief Executive Officer
-                    </p>
-
-                    <p className="card-text">
-                      An academic researcher specializing in new media
-                      production technologies. Tom has extensive experience
-                      building and maintaining IT systems for the third sector.
-                      He is responsible for making major corporate decisions,
-                      building and maintaining client relationships, and
-                      managing the overall operation of Action IT.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-6 mb-4">
-                <div className="card wow bounceInUp">
-                  <img src={peterImg} className="img" alt="" />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      <a
-                        href="https://au.linkedin.com/public-profile/in/xiuzhi-chen"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="readmore"
-                      >
-                        Peter Chen
-                      </a>
-                    </h5>
-
-                    <p
-                      className="card-text"
-                      css={css`
-                        font-weight: bold;
-                      `}
-                    >
-                      Chief Technology Officer
-                    </p>
-
-                    <p className="card-text">
-                      Peter is a Research Software Engineer with rich experience
-                      working with NGOs. He makes executive decisions with
-                      regards to the technological interests of Action IT He is
-                      responsible for service delivery, managing the development
-                      and deployment of all services provided by Action IT to
-                      clients.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-6 mb-4">
-                <div className="card wow bounceInUp">
-                  <img src={graceImg} className="img" alt="" />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      <a
-                        href="https://scholar.google.com.au/citations?user=J8X_9JAAAAAJ&hl=en"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="readmore"
-                      >
-                        Grace Xie
-                      </a>
-                    </h5>
-
-                    <p
-                      className="card-text"
-                      css={css`
-                        font-weight: bold;
-                      `}
-                    >
-                      Chief Information Officer
-                    </p>
-
-                    <p className="card-text">
-                      With more than 15 years of experience in software
-                      engineering, Grace is responsible for Action IT's
-                      information and data governance. Grace supports the team
-                      in streamlining suitable technologies and related policies
-                      to optimize strategic benefits.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-6 mb-4">
-                <div className="card wow bounceInUp">
-                  <img src={delvinImg} className="img" alt="" />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      <a
-                        href="https://scholar.google.com.au/citations?user=PJVzD2sAAAAJ&hl=en&oi=ao"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="readmore"
-                      >
-                        Delvin Varghese
-                      </a>
-                    </h5>
-
-                    <p
-                      className="card-text"
-                      css={css`
-                        font-weight: bold;
-                      `}
-                    >
-                      Director of Partnerships
-                    </p>
-
-                    <p className="card-text">
-                      Delvin is responsible for engaging with our external NGO
-                      partners, building meaningful relationships which lead to
-                      sustainable project deliveries. A key part of this role is
-                      supporting our volunteers in building their identity as
-                      volunteering professionals.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-12 mb-4">
-                <div className="card wow bounceInUp">
-                  <div className="row row-eq-height justify-content-center">
-                    <div className="col-lg-4">
-                      <img src={danImg} className="img" alt="" />
-
-                      <h5
-                        className="card-title"
-                        css={css`
-                          margin-top: 20px;
-                        `}
-                      >
-                        <a
-                          href="https://scholar.google.co.uk/citations?user=WPNviioAAAAJ&hl=en"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="readmore"
-                        >
-                          Dan Richardson
-                        </a>
-                      </h5>
-                    </div>
-
-                    <div className="col-lg-4">
-                      <img src={dinislamImg} className="img" alt="" />
-
-                      <h5
-                        className="card-title"
-                        css={css`
-                          margin-top: 20px;
-                        `}
-                      >
-                        <a
-                          href="https://scholar.google.com/citations?user=_9JseO4AAAAJ&hl=en"
-                          target="_blank"
-                          rel="noreferrer"
-                          className="readmore"
-                        >
-                          Dinislam Abdulgalimov
-                        </a>
-                      </h5>
-                    </div>
-                  </div>
-
-                  <div className="card-body">
-                    <p
-                      className="card-text"
-                      css={css`
-                        font-weight: bold;
-                      `}
-                    >
-                      Delivery Leads
-                    </p>
-
-                    <div className="row row-eq-height justify-content-center">
-                      <p
-                        className="card-text"
-                        css={css`
-                          width: 60%;
-                        `}
-                      >
-                        Delivery leads take responsibility for client projects,
-                        managing developers, designers, and project managers to
-                        deliver client solutions. They coordinate project teams
-                        to keep everybody in sync with the product deliverables.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {teamList}
+              <DeliveryLead />
             </div>
           </div>
         </section>
 
-        <section id="how-we-work" className="section-bg">
+        <section id="oversight" className="section-bg">
           <div className="container">
             <header className="section-header">
-              <h3>How We Work</h3>
-              <p>
-                Action IT operates "Burst" mode working to ensure the successful
-                delivery of infrastructures and solutions. Applicants initially
-                join a 10-week Development Burst in either semester 1 or
-                semester 2 (teaching week 1 to 10) to intensively work on
-                existing, well-scoped projects for NGOs. Projects are signed-off
-                and handed over to NGOs at the end of each Development burst
-                with documentation.
-                <br />
-                <br />
-                Design and Scoping bursts amid Development bursts, where goals
-                are set and prioritized. Major deliverables, project schedules,
-                and milestones are defined and project plans are developed. More
-                experienced Action IT members will have the chance to contribute
-                to the Design and Scoping burst after accomplishing at least two
-                Development bursts. Ongoing maintenance and support will be
-                performed throughout the bursts.
-              </p>
-
-              <div className="ink-burst wow fadeInUp">
-                <img src={burstImg} className="img-fluid burst-img" alt="" />
-              </div>
+              <h3>Supervisory Board</h3>
             </header>
+
+            <div className="row">
+              <div className="col-lg-12">
+                <p>
+                  At Action IT we aim to be a transparent and accountable
+                  initiative, recognising that our primary responsibility is to
+                  both the organisations we work with and the students that work
+                  within Action IT
+                  <br />
+                  <br />
+                  To maintain such accountability, we have a Supervisory Board
+                  who meet twice a year to review Action IT’s:
+                </p>
+
+                <ul>
+                  <li>Current project portfolio</li>
+                  <li>Working practices</li>
+                  <li>Student wellbeing and support</li>
+                  <li>External organisational relationships</li>
+                </ul>
+
+                <p>
+                  This team comprises members from across the university and NGO
+                  sector, whose primary responsibility is to the students and
+                  organisations we work with.
+                  <br />
+                  <br />
+                  This team receives a summary report from the Action IT
+                  Executive Board prior to each meeting, and can propose
+                  recommendations or suggestions for improvement as appropriate.
+                  If you have any concerns or questions related to Action IT,
+                  please feel free to contact the{" "}
+                  <a
+                    href="mailto:ait-supervisory@actionit.dev"
+                    className="link"
+                  >
+                    Supervisory Board
+                  </a>{" "}
+                  for more information.
+                </p>
+
+                <div className="row">{boardList}</div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
