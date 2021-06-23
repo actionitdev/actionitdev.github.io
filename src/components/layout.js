@@ -42,6 +42,7 @@ export default function Layout({ children }) {
             <Nav.Link href="/">About Us</Nav.Link>
             <Nav.Link href="/applicants">For Applicants</Nav.Link>
             <Nav.Link href="/ngos">For NGOs</Nav.Link>
+            <Nav.Link href="/alumni">Alumni</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -100,6 +101,9 @@ export default function Layout({ children }) {
                   </li>
                   <li>
                     <a href="/ngos">For NGOs</a>
+                  </li>
+                  <li>
+                    <a href="/alumni">Alumni</a>
                   </li>
                 </ul>
               </div>
