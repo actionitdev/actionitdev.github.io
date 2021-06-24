@@ -4,7 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Member(props) {
   return (
-    <div className="col-lg-3 col-md-4 col-6">
+    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
       <div className="member">
         <img src={props.img} className="img-fluid" alt="" />
         <div className="member-info">

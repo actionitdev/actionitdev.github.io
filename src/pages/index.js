@@ -44,7 +44,7 @@ const team = [
   },
   {
     img: delvinImg,
-    link: "https://scholar.google.com/citations?user=yLecSWgAAAAJ&hl=en",
+    link: "https://scholar.google.com/citations?user=PJVzD2sAAAAJ&hl=en",
     name: "Delvin Varghese",
     title: "Director of Partnerships",
     description:
