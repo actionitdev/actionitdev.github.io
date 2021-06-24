@@ -216,7 +216,7 @@ export default function ApplicantPage() {
                   <div
                     className="col-lg-6"
                     css={css`
-                      margin-bottom: 24px;
+                      margin-bottom: 12px;
                     `}
                   >
                     <p>
@@ -224,10 +224,9 @@ export default function ApplicantPage() {
                       student volunteers. After working at least one semester
                       with Action IT, eligible candidates will be able to take
                       Supporter or Consultant roles to facilitate future
-                      projects with their existing project experiences. More
-                      competent candidates might also get the chance to become a
-                      Delivery Lead for Action IT to lead one or more project
-                      teams.
+                      projects with their existing project experiences. Selected
+                      candidates might also get the chance to become a Delivery
+                      Lead for Action IT to lead one or more project teams.
                     </p>
                   </div>
 
@@ -235,14 +234,14 @@ export default function ApplicantPage() {
                     className="col-lg-6"
                     css={css`
                       text-align: center;
-                      padding: 0 32px;
+                      padding: 0 12px;
                     `}
                   >
                     <img
                       src={pathwayImg}
                       className="img-fluid"
-                      css={css`width: 80vh;"`}
-                      alt="AIT Structure"
+                      css={css`width: 40vh;"`}
+                      alt="AIT Pathway"
                     />
                   </div>
                 </div>

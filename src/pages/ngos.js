@@ -97,9 +97,15 @@ export default function NgoPage() {
             on time with good qualities. Amid Development bursts, Action IT also
             runs Design and Scoping bursts where goals are set and prioritized.
             Major deliverables, project schedules, and milestones are defined
-            and project plans are developed. Please get in touch with us if you
-            would like to know how Action IT can help with your organisation and
-            whether your projects will fit our burst mode.
+            and project plans are developed. Ongoing maintenance and support
+            will be performed throughout the burst by selected student
+            volunteers to ensure the sustainability of Action IT projects during
+            their operational lifecycle.
+            <br />
+            <br />
+            Please get in touch with us if you would like to know how Action IT
+            can help with your organisation and whether your projects will fit
+            our burst mode.
           </p>
         </div>
       </section>
