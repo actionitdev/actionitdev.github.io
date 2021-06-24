@@ -239,10 +239,9 @@ h6 {
   transition: 0.1s ease-in-out;
 }
 
-/* .navbar-light .navbar-toggler-icon {
-  background: url("../images/menu.svg") !important;
-  background-image: url("../images/menu.svg") !important;
-} */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/menu.png") !important;
+}
 
 /*--------------------------------------------------------------
 # Sections
