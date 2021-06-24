@@ -98,7 +98,7 @@ export default function NgoPage() {
             runs Design and Scoping bursts where goals are set and prioritized.
             Major deliverables, project schedules, and milestones are defined
             and project plans are developed. Ongoing maintenance and support
-            will be performed throughout the burst by selected student
+            will be performed throughout the bursts by selected student
             volunteers to ensure the sustainability of Action IT projects during
             their operational lifecycle.
             <br />
