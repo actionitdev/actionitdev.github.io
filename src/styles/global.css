@@ -651,22 +651,27 @@ h6 {
   left: 0;
   right: 0;
   transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 #team .member .member-info-content {
   margin-top: 50px;
   transition: margin 0.2s;
+  -webkit-transition: margin 0.2s;
 }
 
 #team .member:hover .member-info {
   background: rgba(0, 62, 128, 0.7);
+  border-radius: 100%;
   opacity: 1;
-  transition: 0.4s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
 }
 
 #team .member:hover .member-info-content {
   margin-top: 0;
-  transition: margin 0.4s;
+  transition: margin 0.3s;
+  -webkit-transition: margin 0.3s;
 }
 
 #team .member h4 {
@@ -689,6 +694,7 @@ h6 {
 
 #team .member .social a {
   transition: 0.3s;
+  -webkit-transition: 0.3s;
   color: rgba(255, 255, 255, 0.7);
 }
 
