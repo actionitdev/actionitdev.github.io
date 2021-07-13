@@ -143,7 +143,7 @@ export default function Home() {
               >
                 Action IT Application Form
               </a>{" "}
-              before 12th July 2021 to join us!
+              before 19th July 2021 to join us!
             </p>
 
             <header className="section-header">
