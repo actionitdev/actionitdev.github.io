@@ -324,7 +324,7 @@ export default function ApplicantPage() {
                   </li>
                 </ul>
 
-                <p
+                {/* <p
                   css={css`
                     font-style: italic;
                     font-weight: bold;
@@ -341,7 +341,7 @@ export default function ApplicantPage() {
                     Action IT Application Form
                   </a>{" "}
                   before 12th July 2021 to join us!
-                </p>
+                </p> */}
 
                 <div className="row justify-content-center wow bounceInUp">
                   <img

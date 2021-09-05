@@ -125,7 +125,7 @@ export default function Home() {
       <main id="main">
         <section id="about">
           <div className="container">
-            <p
+            {/* <p
               css={css`
                 font-style: italic;
                 font-weight: bold;
@@ -144,7 +144,7 @@ export default function Home() {
                 Action IT Application Form
               </a>{" "}
               before 19th July 2021 to join us!
-            </p>
+            </p> */}
 
             <header className="section-header">
               <h3>About Us</h3>
