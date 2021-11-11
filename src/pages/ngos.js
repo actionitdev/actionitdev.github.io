@@ -42,11 +42,12 @@ export default function NgoPage() {
               </p>
 
               <p>
-                Action IT had a good initial run for S1 2021. For the latest
-                burst, we had 51 applicants with different skills and technical
-                background. We had 4 successful projects related to different
-                areas, including accessibility, data retrieval, translation, and
-                CI/CD. These projects were done over 720 hours by 9 competent
+                Throughout the previous two Action IT bursts (S1 2021 and S2
+                2021), we had 94 applicants with different skills and technical
+                backgrounds. We had 8 successful projects related to different
+                areas, including accessibility, data retrieval, translation,
+                CI/CD, volunteer management, and financial management systems.
+                These projects were done over 1,520 hours by 19 competent
                 student volunteers who made through an extensive application
                 process.
               </p>
@@ -55,22 +56,22 @@ export default function NgoPage() {
 
           <div class="row counters">
             <div class="col-lg-3 col-6 text-center">
-              <span>51</span>
+              <span>94</span>
               <p>Applicants</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-              <span>9</span>
+              <span>19</span>
               <p>Student Volunteers</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-              <span>4</span>
+              <span>8</span>
               <p>Projects</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-              <span>720</span>
+              <span>1,520</span>
               <p>Development Hours</p>
             </div>
           </div>
