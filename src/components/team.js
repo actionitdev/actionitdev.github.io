@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 
 export default function TeamMember(props) {
   return (
-    <div className="col-lg-6 mb-4">
+    <div className="col-xl-4 mb-4">
       <div className="card">
         <img src={props.img} className="img" alt="" />
         <div className="card-body">

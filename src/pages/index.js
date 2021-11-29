@@ -8,6 +8,7 @@ import aboutImg from "../images/about-img.svg";
 import structureImg from "../images/ink-structure.png";
 import tomImg from "../images/portraits/tom.jpg";
 import peterImg from "../images/portraits/peter.jpg";
+import joshuaImg from "../images/portraits/joshua.jpg";
 import delvinImg from "../images/portraits/delvin.jpg";
 import graceImg from "../images/portraits/grace.jpg";
 import allieImg from "../images/portraits/allie.jpg";
@@ -41,6 +42,14 @@ const team = [
     title: "Chief Information Officer",
     description:
       "With more than 15 years of experience in software engineering, Grace is responsible for Action IT's information and data governance. Grace supports the team in streamlining suitable technologies and related policies to optimize strategic benefits.",
+  },
+  {
+    img: joshuaImg,
+    link: "https://research.monash.edu/en/persons/joshua-seguin",
+    name: "Joshua Paolo Seguin",
+    title: "Chief Experience Officer",
+    description:
+      "Joshua takes care of the Action IT brand and communication strategy, while providing expert guidance on the UX/UI design services of the group. Joshua has got years of experience designing digital products and marketing campaigns for multinational brands (e.g. Coca-cola, Unilever, and Uniqlo) and NGOs including IFRC and community-based organisations.",
   },
   {
     img: delvinImg,
