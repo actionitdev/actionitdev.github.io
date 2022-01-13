@@ -1,7 +1,7 @@
 import React from "react";
 import { css } from "@emotion/react";
 import Layout from "../components/layout";
-import timelineImg from "../images/ink-timeline-2021s2.png";
+import timelineImg from "../images/ink-timeline-2022s1.png";
 import developerImg from "../images/contribution-developer.png";
 import designerImg from "../images/contribution-designer.png";
 import pmImg from "../images/contribution-pm.png";
@@ -43,13 +43,18 @@ export default function ApplicantPage() {
                       <img className="img-fluid" src={developerImg} alt="" />
                     </div>
                     <div className="card-body">
-                      <h4 className="card-title">Engineer</h4>
+                      <h4 className="card-title">Software Engineer</h4>
                       <p className="card-description">
                         We are onboarding software engineers (developers) for
-                        S2, 2021. If you are interested, don't hesitate to lodge
+                        S1, 2022. If you are interested, don't hesitate to lodge
                         your application now!
                       </p>
-                      <a href="#how-to-apply" className="btn-apply">
+                      <a
+                        href="https://forms.gle/2D84GZDDRbp9rNYV9"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-apply"
+                      >
                         Apply Now
                       </a>
                     </div>
@@ -60,13 +65,19 @@ export default function ApplicantPage() {
                       <img className="img-fluid" src={designerImg} alt="" />
                     </div>
                     <div className="card-body">
-                      <h4 className="card-title">Graphic Designer</h4>
+                      <h4 className="card-title">UI/UX Designer</h4>
                       <p className="card-description">
-                        The Graphic Designer track will be opening soon, please
-                        submit an expression of interest for any future updates.
+                        We are onboarding UI/UX designers for S1, 2022. If you
+                        are interested, don't hesitate to lodge your application
+                        now!
                       </p>
-                      <a href="mailto:ait-eoi@actionit.dev" className="btn-eoi">
-                        Expression of Interest
+                      <a
+                        href="https://forms.gle/2D84GZDDRbp9rNYV9"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-apply"
+                      >
+                        Apply Now
                       </a>
                     </div>
                   </div>
@@ -78,10 +89,16 @@ export default function ApplicantPage() {
                     <div className="card-body">
                       <h4 className="card-title">Project Manager</h4>
                       <p className="card-description">
-                        The Project Manager track will be opening soon, please
-                        submit an expression of interest for any future updates.
+                        We are onboarding project managers for S1, 2022. If you
+                        are interested, don't hesitate to lodge your application
+                        now!
                       </p>
-                      <a href="#how-to-apply" className="btn-apply">
+                      <a
+                        href="https://forms.gle/2D84GZDDRbp9rNYV9"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-apply"
+                      >
                         Apply Now
                       </a>
                     </div>
@@ -324,24 +341,24 @@ export default function ApplicantPage() {
                   </li>
                 </ul>
 
-                {/* <p
+                <p
                   css={css`
                     font-style: italic;
                     font-weight: bold;
                   `}
                 >
-                  Applications are now open for the S2 2021 cohort. Please
+                  Applications are now open for the S1 2022 cohort. Please
                   submit your application via{" "}
                   <a
-                    href="https://forms.gle/a7X3udQTXU6ZqAqH9"
+                    href="https://forms.gle/2D84GZDDRbp9rNYV9"
                     target="_blank"
                     rel="noreferrer"
                     className="link"
                   >
                     Action IT Application Form
                   </a>{" "}
-                  before 12th July 2021 to join us!
-                </p> */}
+                  before 2nd July 2022 to join us!
+                </p>
 
                 <div className="row justify-content-center wow bounceInUp">
                   <img

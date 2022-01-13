@@ -134,7 +134,7 @@ export default function Home() {
       <main id="main">
         <section id="about">
           <div className="container">
-            {/* <p
+            <p
               css={css`
                 font-style: italic;
                 font-weight: bold;
@@ -142,18 +142,18 @@ export default function Home() {
                 margin-bottom: 32px;
               `}
             >
-              Applications are now open for the S2 2021 cohort. Please submit
+              Applications are now open for the S1 2022 cohort. Please submit
               your application via{" "}
               <a
-                href="https://forms.gle/a7X3udQTXU6ZqAqH9"
+                href="https://forms.gle/2D84GZDDRbp9rNYV9"
                 target="_blank"
                 rel="noreferrer"
                 className="link"
               >
                 Action IT Application Form
               </a>{" "}
-              before 19th July 2021 to join us!
-            </p> */}
+              before 2nd Feb 2022 to join us!
+            </p>
 
             <header className="section-header">
               <h3>About Us</h3>
