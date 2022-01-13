@@ -1,2 +1,0 @@
-(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[501],{262:function(e,t,l){"use strict";l.r(t),l.d(t,{default:function(){return u}});l(7294);var a=l(7198),n=l(3964);function u(){return(0,n.tZ)(a.Z,null,(0,n.tZ)("h1",null,"I'd love to talk! Email me at the address below"),(0,n.tZ)("p",null,(0,n.tZ)("a",{href:"mailto:me@example.com"},"me@example.com")))}}}]);
-//# sourceMappingURL=component---src-pages-contact-js-9cde15a8ddc56a7c540a.js.map
