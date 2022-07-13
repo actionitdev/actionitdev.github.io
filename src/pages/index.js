@@ -142,17 +142,17 @@ export default function Home() {
                 margin-bottom: 32px;
               `}
             >
-              Applications are now open for the S1 2022 cohort. Please submit
+              Applications are now open for the S2 2022 cohort. Please submit
               your application via{" "}
               <a
-                href="https://forms.gle/2D84GZDDRbp9rNYV9"
+                href="https://forms.gle/CCnwsoKYuBZDDVWi8"
                 target="_blank"
                 rel="noreferrer"
                 className="link"
               >
                 Action IT Application Form
               </a>{" "}
-              before 2nd Feb 2022 to join us!
+              before 1st Aug 2022 to join us!
             </p>
 
             <header className="section-header">
@@ -252,7 +252,7 @@ export default function Home() {
                     chosen by their experience and skill set.
                     <br />
                     <br />
-                    Solution delivery teams consist of developers, designers,
+                    Solution delivery teams consist of IT specialists, designers,
                     and project managers depending on the project scope.
                     <br />
                     <br />

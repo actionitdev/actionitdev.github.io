@@ -1,5 +1,4 @@
 import React from "react";
-import { css } from "@emotion/react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Seo from "../components/seo";
@@ -11,6 +10,7 @@ import "../lib/animate/animate.min.css";
 import "../lib/ionicons/css/ionicons.min.css";
 import "../lib/owlcarousel/assets/owl.carousel.min.css";
 import "../lib/lightbox/css/lightbox.min.css";
+import { css } from "@emotion/react";
 
 export default function Layout({ children }) {
   return (
@@ -63,6 +63,29 @@ export default function Layout({ children }) {
               <br />
               for the third sector, delivered by volunteers.
             </h2>
+            <p>
+              <a
+                href="https://forms.gle/CCnwsoKYuBZDDVWi8"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  border: "2px solid #c85250",
+                  background: "#c85250",
+                  borderColor: "#c85250",
+                }}
+                className="btn-apply"
+                css={css`
+                  color: #fff !important;
+                  font-weight: 600;
+                  letter-spacing: 1px;
+                  display: inline-block;
+                  padding: 10px 16px;
+                  border-radius: 50px;
+                `}
+              >
+                Apply Now
+              </a>
+            </p>
           </div>
         </div>
       </section>

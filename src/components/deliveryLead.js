@@ -49,7 +49,7 @@ export default function DeliveryLead() {
               `}
             >
               Delivery leads take responsibility for client projects, managing
-              developers, designers, and project managers to deliver client
+              IT specialists, designers, and project managers to deliver client
               solutions. They coordinate project teams to keep everybody in sync
               with the product deliverables.
             </p>
