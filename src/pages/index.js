@@ -46,7 +46,7 @@ const team = [
   {
     img: joshuaImg,
     link: "https://research.monash.edu/en/persons/joshua-seguin",
-    name: "Joshua Paolo Seguin",
+    name: "Joshua Pablo Seguin",
     title: "Chief Experience Officer",
     description:
       "Joshua takes care of the Action IT brand and communication strategy, while providing expert guidance on the UX/UI design services of the group. Joshua has got years of experience designing digital products and marketing campaigns for multinational brands (e.g. Coca-cola, Unilever, and Uniqlo) and NGOs including IFRC and community-based organisations.",
