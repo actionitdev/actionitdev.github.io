@@ -357,7 +357,7 @@ export default function ApplicantPage() {
                   >
                     Action IT Application Form
                   </a>{" "}
-                  before 1st Aug 2022 to join us!
+                  before 27th July 2022 to join us!
                 </p>
 
                 <div className="row justify-content-center wow bounceInUp">

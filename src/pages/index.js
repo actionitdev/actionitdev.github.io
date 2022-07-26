@@ -7,7 +7,7 @@ import DeliveryLead from "../components/deliveryLead";
 import aboutImg from "../images/about-img.svg";
 import structureImg from "../images/ink-structure.png";
 import tomImg from "../images/portraits/tom.jpg";
-import peterImg from "../images/portraits/peter.jpg";
+import dinislamImg from "../images/portraits/dinislam.jpg";
 import joshuaImg from "../images/portraits/joshua.jpg";
 import delvinImg from "../images/portraits/delvin.jpg";
 import graceImg from "../images/portraits/grace.jpg";
@@ -17,6 +17,7 @@ import heatherImg from "../images/portraits/heather.jpg";
 import mattImg from "../images/portraits/matt.jpg";
 import nicoleImg from "../images/portraits/nicole.jpg";
 import patrickImg from "../images/portraits/patrick.jpg";
+import margheritaImg from "../images/portraits/margherita-angelucci.jpeg"
 
 const team = [
   {
@@ -28,12 +29,12 @@ const team = [
       "An academic researcher specializing in new media production technologies. Tom has extensive experience building and maintaining IT systems for the third sector. He is responsible for making major corporate decisions, building and maintaining client relationships, and managing the overall operation of Action IT.",
   },
   {
-    img: peterImg,
-    link: "https://au.linkedin.com/public-profile/in/xiuzhi-chen",
-    name: "Peter Chen",
+    img: dinislamImg,
+    link: "https://www.linkedin.com/in/dinislam-abdulgalimov/",
+    name: "Dinislam Abdulgalimov",
     title: "Chief Technology Officer",
     description:
-      "Peter is a Research Software Engineer with rich experience working with NGOs. He makes executive decisions with regards to the technological interests of Action IT He is responsible for service delivery, managing the development and deployment of all services provided by Action IT to clients.",
+      "Dinislam is a Research Software Engineer with rich experience working with Industry and NGOs. He makes executive decisions with regards to the technological interests of Action IT He is responsible for service delivery, managing the development and deployment of all services provided by Action IT to clients.",
   },
   {
     img: graceImg,
@@ -58,6 +59,14 @@ const team = [
     title: "Director of Partnerships",
     description:
       "Delvin is responsible for engaging with our external NGO partners, building meaningful relationships which lead to sustainable project deliveries. A key part of this role is supporting our volunteers in building their identity as volunteering professionals.",
+  },
+  {
+    img: margheritaImg,
+    link: "https://www.linkedin.com/in/margherita-angelucci/",
+    name: "Margherita Angelucci",
+    title: "Recruitment and Volunteer Coordinator",
+    description:
+      "Margherita is responsible for organising and managing the recruitment process of Action IT volunteers. She leads the volunteer management and ensures service mission objectives are met. Margherita coordinates and guides volunteer students ensuring they receive sufficient support and achieve their goals.",
   },
 ];
 
@@ -152,7 +161,7 @@ export default function Home() {
               >
                 Action IT Application Form
               </a>{" "}
-              before 1st Aug 2022 to join us!
+              before 27th July 2022 to join us!
             </p>
 
             <header className="section-header">

@@ -2,7 +2,8 @@ import React from "react";
 import { css } from "@emotion/react";
 import LeadProfile from "./leadProfile";
 import danImg from "../images/portraits/dan.jpg";
-import dinislamImg from "../images/portraits/dinislam.jpg";
+import harrisonImg from "../images/portraits/harrison-marshall.jpeg";
+import pranavImg from "../images/portraits/pranav-kulkarni.jpeg";
 
 const deliveryLeads = [
   {
@@ -11,9 +12,14 @@ const deliveryLeads = [
     name: "Dan Richardson",
   },
   {
-    img: dinislamImg,
-    link: "https://scholar.google.com/citations?user=_9JseO4AAAAJ&hl=en",
-    name: "Dinislam Abdulgalimov",
+    img: harrisonImg,
+    link: "https://www.linkedin.com/in/harrison-marshall-42170a211/",
+    name: "Harrison Marshall",
+  },
+  {
+    img: pranavImg,
+    link: "https://www.linkedin.com/in/pranav-kulkarni1910/",
+    name: "Pranav Kulkarni",
   },
 ];
 
