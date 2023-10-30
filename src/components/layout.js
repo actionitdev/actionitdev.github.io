@@ -64,7 +64,7 @@ export default function Layout({ children }) {
               for the third sector, delivered by volunteers.
             </h2>
             <p>
-              <a
+              {/* <a
                 href="https://forms.gle/CCnwsoKYuBZDDVWi8"
                 target="_blank"
                 rel="noreferrer"
@@ -84,7 +84,7 @@ export default function Layout({ children }) {
                 `}
               >
                 Apply Now
-              </a>
+              </a> */}
             </p>
           </div>
         </div>

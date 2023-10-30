@@ -45,18 +45,18 @@ export default function ApplicantPage() {
                     <div className="card-body">
                       <h4 className="card-title">IT Specialist</h4>
                       <p className="card-description">
-                        We are onboarding IT specialists for
-                        S2, 2022. If you are interested, don't hesitate to lodge
-                        your application now!
+                        We are onboarding IT specialists for S2, 2022. If you
+                        are interested, don't hesitate to lodge your application
+                        now!
                       </p>
-                      <a
+                      {/* <a
                         href="https://forms.gle/CCnwsoKYuBZDDVWi8"
                         target="_blank"
                         rel="noreferrer"
                         className="btn-apply"
                       >
                         Apply Now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
 
@@ -71,14 +71,14 @@ export default function ApplicantPage() {
                         are interested, don't hesitate to lodge your application
                         now!
                       </p>
-                      <a
+                      {/* <a
                         href="https://forms.gle/CCnwsoKYuBZDDVWi8"
                         target="_blank"
                         rel="noreferrer"
                         className="btn-apply"
                       >
                         Apply Now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
 
@@ -93,14 +93,14 @@ export default function ApplicantPage() {
                         are interested, don't hesitate to lodge your application
                         now!
                       </p>
-                      <a
+                      {/* <a
                         href="https://forms.gle/CCnwsoKYuBZDDVWi8"
                         target="_blank"
                         rel="noreferrer"
                         className="btn-apply"
                       >
                         Apply Now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function ApplicantPage() {
                   </li>
                 </ul>
 
-                <p
+                {/* <p
                   css={css`
                     font-style: italic;
                     font-weight: bold;
@@ -358,7 +358,7 @@ export default function ApplicantPage() {
                     Action IT Application Form
                   </a>{" "}
                   before 27th July 2022 to join us!
-                </p>
+                </p> */}
 
                 <div className="row justify-content-center wow bounceInUp">
                   <img

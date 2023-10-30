@@ -17,7 +17,7 @@ import heatherImg from "../images/portraits/heather.jpg";
 import mattImg from "../images/portraits/matt.jpg";
 import nicoleImg from "../images/portraits/nicole.jpg";
 import patrickImg from "../images/portraits/patrick.jpg";
-import margheritaImg from "../images/portraits/margherita-angelucci.jpeg"
+import margheritaImg from "../images/portraits/margherita-angelucci.jpeg";
 
 const team = [
   {
@@ -141,6 +141,60 @@ export default function Home() {
   return (
     <Layout>
       <main id="main">
+        <section id="announce">
+          <div
+            className="container"
+            css={css`
+              background: #eee;
+              margin-top: 3em;
+              padding-top: 1em;
+            `}
+          >
+            <header className="section-header">
+              <h3>What's next...</h3>
+            </header>
+
+            <div className="row about-container">
+              <div className="col-lg-8 content order-lg-1 order-2">
+                <p
+                  css={css`
+                    font-size: larger;
+                  `}
+                >
+                  In 2023 we made the important decision to retire Action IT in
+                  its current form at Monash University.
+                </p>
+                <p
+                  css={css`
+                    font-size: larger;
+                  `}
+                >
+                  The lessons learnt from this model will go on to inform future
+                  programs of supporting NGOs in IT tasks that they otherwise
+                  would not be able to support.
+                </p>
+                <p>
+                  After 5 semesters of supporting over 20 organisations by over
+                  100 students, we have made the important decision to pause and
+                  reflect on the model.
+                </p>
+                <p>
+                  We want to thank all who participated, the management team,
+                  supervisor board and all those who contributed in any way to
+                  this journey.
+                </p>
+                <p>
+                  We encourage those in IT wherever you are in your career to
+                  consider how your skills can help those without these key
+                  literacies.
+                </p>
+                <p>Thanks for your understanding,</p>
+                <p>Tom Bartindale</p>
+                <p>CEO, Action IT</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="about">
           <div className="container">
             <p
@@ -151,7 +205,7 @@ export default function Home() {
                 margin-bottom: 32px;
               `}
             >
-              Applications are now open for the S2 2022 cohort. Please submit
+              {/* Applications are now open for the S2 2022 cohort. Please submit
               your application via{" "}
               <a
                 href="https://forms.gle/CCnwsoKYuBZDDVWi8"
@@ -161,7 +215,7 @@ export default function Home() {
               >
                 Action IT Application Form
               </a>{" "}
-              before 27th July 2022 to join us!
+              before 27th July 2022 to join us! */}
             </p>
 
             <header className="section-header">
@@ -261,8 +315,9 @@ export default function Home() {
                     chosen by their experience and skill set.
                     <br />
                     <br />
-                    Solution delivery teams consist of IT specialists, designers,
-                    and project managers depending on the project scope.
+                    Solution delivery teams consist of IT specialists,
+                    designers, and project managers depending on the project
+                    scope.
                     <br />
                     <br />
                     The Supervisory Board reviews Action IT's operations
